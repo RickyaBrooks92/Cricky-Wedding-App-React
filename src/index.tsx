@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import CameraPreview from "./components/camera_preview";
 
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(
@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <CameraPreview />
   </React.StrictMode>
 );
 
